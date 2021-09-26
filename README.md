@@ -1,5 +1,5 @@
 # smbc-gp-client
-An http client to call smbc-gp api
+An http client to call SMBC GMO Pay APIs.
 
 ## upload package
 ```
