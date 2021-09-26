@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="smbc-gp-client",
-  version="0.0.1",
+  version="0.0.2",
   author="Jierom",
   author_email="jierom66@gmail.com",
   description="An http client to call smbc-gp api",
