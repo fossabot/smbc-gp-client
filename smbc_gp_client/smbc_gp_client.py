@@ -28,18 +28,17 @@ class SmbcGpClient():
         self.base_url = base_url
 
     """
-    Some execute transaction cases:
-    1. 不使用会员 ID（卡号/token）
-    2. 使用 Google Payment token
-    3. 使用 会员 ID
-    
-    5. 3DS 1.0 认证后执行
-    6. 3DS 2.0 认证后执行
+    0. 创建交易
 
-    7. 执行变更
+    1. 执行交易 - 不使用会员 ID (卡号/token/google token/3ds1.0/3ds2.0)
+    3. 执行交易 - 使用 会员 ID (卡号/token/google token/3ds1.0/3ds2.0)
+    4. 执行交易 - 3DS 1.0 认证后执行
+    5. 执行交易 - 3DS 2.0 认证后执行
+
+    7. 交易变更
     8. 金额变更
 
-    9. 状态查询
+    9. 交易状态查询
     """
 
     def create_transaction(self, shopId, shopPass, orderId, jobCd, amount, tax, 
