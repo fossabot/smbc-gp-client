@@ -3,7 +3,7 @@ from enum import Enum
 
 def serialize_response(response):
     data = dict()
-    params = response.split("&")
+    params = response.text.split("&")
     for param in params:
         (key, value) = param.split("=")
         data[key] = value
@@ -26,6 +26,7 @@ class SmbcGpClient():
     
     def __init__(self, base_url):
         self.base_url = base_url
+        print("init smbc-gp client succuss")
 
     """
     0. 创建交易
