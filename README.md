@@ -1,5 +1,7 @@
-# smbc-gp-client
-An http client to call SMBC GMO Pay APIs.
+# Python SMBC GMO Pay Client Lib
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMonoidDev%2Fsmbc-gp-client.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMonoidDev%2Fsmbc-gp-client?ref=badge_shield)
+
+An http client to call SMBC GMO Pay APIs. (smbc-gp-client)
 
 ## upload package
 ```
