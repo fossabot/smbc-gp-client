@@ -1,16 +1,16 @@
-# smbc-gp-client
+# Python SMBC GMO Pay Client Lib
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMonoidDev%2Fsmbc-gp-client.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMonoidDev%2Fsmbc-gp-client?ref=badge_shield)
 
-An http client to call SMBC GMO Pay APIs.
+An http client to call SMBC GMO Pay APIs. (smbc-gp-client)
 
-## upload package
+## Upload package
 ```
 python3 -m pip install --user --upgrade setuptools wheel twine
 python3 setup.py sdist bdist_wheel
 twine upload dist/*
 ```
 
-## how to use
+## How to use
 use pip install package `smbc-gp-client`
 ```
 pip3 install smbc-gp-client
@@ -25,6 +25,9 @@ client.execute_transaction(...)
 ```
 for more details, please refer to `SmbcGpClient` class method description.
 
-
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMonoidDev%2Fsmbc-gp-client.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMonoidDev%2Fsmbc-gp-client?ref=badge_large)
+
+## Reference
+- SMBC GMO PAYMENT https://www.smbc-gp.co.jp/
+
